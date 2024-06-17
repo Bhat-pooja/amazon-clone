@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+ font-family: Arial;
+ border: border-box;
+
+}
+.navbar
+{
+    height: 60px;
+    background-color: #121313;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo
+{
+height: 50px;
+width: 100px;
+}
+.logo
+{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/** box 2 **/
+.add-first{
+    color: #cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/** box 3**/
+.nav-search{
+    display: flex;
+   justify-content: space-evenly;
+    background-color: orange;
+    width: 620px;
+    height: 50px;
+    border-radius: 4px;
+
+}
+.search-select{
+    /**height: 50px;**/
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: #f3f3f3;
+    border-top-left-radius:4px; 
+    border-bottom-left-radius: 4px;
+    ;
+}
+.search-input{
+    height: 46px;
+    width: 800px;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 174, 0);
+    border-radius: 4px;
+}
+.sign{
+    display: flex;
+    font-size: 17px;
+    
+}
+/**box 4**/
+.cart{
+    font-size: 25px;
+}
+/** box 5**/
+.flag
+{
+    background-image: url("flag.jpeg");
+    background-size: cover;
+    height: 30px;
+    width: 50px;
+    display: flex;
+}
+.en{
+    display: flex;
+    font-size: 17px;
+    border-bottom-left-radius: 4px;
+}
+.flag1{
+    display: flex;
+    font-size: 17px;
+}
+.menubar
+{
+    height: 60px;
+    background-color: #6969c8b0;
+    color: beige;
+    display: flex;
+    align-items:center;
+    text-align:center;
+    justify-content: space-evenly;
+}
+.all{
+    display: flex;
+}
+.hero{
+  background-image: url("hero.jpg");  
+  background-size: cover;
+  height: 400px;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(234, 102, 218);
+}
+.box{
+    height:400px ;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+}
+.boximg{
+    height: 350px;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.panel p{
+    display: inline;
+    width: 70%;
+}
+.ele{
+    text-align: left;
+}
